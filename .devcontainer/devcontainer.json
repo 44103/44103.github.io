@@ -1,0 +1,23 @@
+{
+  "name": "React Docker",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "react",
+  "remoteUser": "root",
+  "settings": {
+    "terminal.integrated.shell.linux": "zsh"
+  },
+  "workspaceFolder": "/workdir",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "sleistner.vscode-fileutils",
+        "ms-vscode.makefile-tools",
+        "fabiospampinato.vscode-todo-plus",
+        "shardulm94.trailing-spaces",
+        "patbenatar.advanced-new-file"
+      ]
+    }
+  }
+}

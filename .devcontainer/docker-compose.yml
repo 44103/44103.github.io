@@ -1,0 +1,9 @@
+version: '3'
+services:
+  react:
+    build: .
+    working_dir: /workdir
+    command: sleep infinity
+    volumes:
+      - ~/.gitconfig:/home/root/.gitconfig:ro
+      - ../:/workdir
