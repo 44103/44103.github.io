@@ -8,11 +8,11 @@ const Home = () => {
           <h1 className='text-4xl lg:text-6xl'>
             Hi, <br />
             I'm <span className='text-accent'>K</span>enko <br />
-            Backend Engineer
+            Backend Developer
           </h1>
 
-          <p className='py-5'>I am proficient</p>
-          <button className='btn bg-accent border-2 border-[#FF9036] text-white px-6 py-3 hover:bg-transparent'>See Projects</button>
+          <p className='py-5'>福岡県出身 東京都在住。どんな技術にも猪突猛進に取り組みます（亥年・牡牛座）。</p>
+          <a href="/#about" className='btn bg-accent border-2 border-[#FF9036] text-white px-6 py-3 hover:bg-transparent'>See Projects</a>
         </div>
 
         <div className="home-img">
