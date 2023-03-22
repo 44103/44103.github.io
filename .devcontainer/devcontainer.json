@@ -12,12 +12,13 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "sleistner.vscode-fileutils",
-        "ms-vscode.makefile-tools",
-        "fabiospampinato.vscode-todo-plus",
-        "shardulm94.trailing-spaces",
-        "patbenatar.advanced-new-file"
-      ]
+		"sleistner.vscode-fileutils",
+		"ms-vscode.makefile-tools",
+		"fabiospampinato.vscode-todo-plus",
+		"shardulm94.trailing-spaces",
+		"patbenatar.advanced-new-file",
+		"bradlc.vscode-tailwindcss"
+	]
     }
   }
 }
