@@ -1,4 +1,4 @@
-import VtrImg from '../images/vtr.png';
+import VtrImg from '../assets/vtr.png';
 
 const Home = () => {
   return (
