@@ -9,7 +9,7 @@ const Menu = ({
     "About",
     "Projects",
     "Skill",
-    "Books",
+    "Bookshelf",
     "Contact",
     "Resume",
   ];
