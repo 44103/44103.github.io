@@ -7,19 +7,19 @@ html {
 }
 
 .bg-primary {
-  background: #0F172A;
+  background: #0f172a;
 }
 
 .bg-secondary {
-  background: #1E293B;
+  background: #1e293b;
 }
 
 .bg-accent {
-  background: #FF9036;
+  background: #ff9036;
 }
 
 .text-accent {
-  color: #FF9036;
+  color: #ff9036;
 }
 
 nav li a {
@@ -27,7 +27,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #FF9036;
+  color: #ff9036;
 }
 
 .mobile-nav {
@@ -36,6 +36,6 @@ nav li a:hover {
 
 /* Home */
 h1 {
-  font-family: 'Fredericka the Great', cursive;
+  font-family: "Fredericka the Great", cursive;
   line-height: 1.5 !important;
 }
