@@ -5,29 +5,25 @@ const Menu = ({
   handleMenu?: React.MouseEventHandler<HTMLLIElement>;
   mode: string;
 }) => {
-  const menuItems = [
-    "About",
-    "Projects",
-    "Skill",
-    "Bookshelf",
-    "Contact",
-    "Resume",
-  ];
+  const menuItems = ["About", "Projects", "Skill", "Bookshelf", "Resume"];
 
   return (
     <>
       {mode === "mobile"
         ? menuItems.map((value) => {
             return (
-              <li onClick={handleMenu}>
+              <li onClick={handleMenu} className="ml-5">
                 <a href={`/#${value.toLowerCase()}`}>{`|> ${value}()`}</a>
               </li>
             );
           })
-        : menuItems.map((value) => {
+        : menuItems.map((value, index) => {
             return (
               <li onClick={handleMenu}>
-                <a href={`/#${value.toLowerCase()}`}>{`.${value}()`}</a>
+                <a href={`/#${value.toLowerCase()}`}>
+                  {`.${value}()`}
+                  {menuItems.length - 1 === index ? ";" : ""}
+                </a>
               </li>
             );
           })}
