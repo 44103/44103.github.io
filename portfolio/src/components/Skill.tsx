@@ -27,19 +27,23 @@ const Skill = () => {
           </h3>
           <div className="container mx-auto grid grid-cols-6">
             <div>
-              <img src={PythonImg} className="p-3"></img>
+              <img src={PythonImg} alt="icon Python" className="p-3"></img>
             </div>
             <div>
-              <img src={TypeScriptImg} className="p-3"></img>
+              <img
+                src={TypeScriptImg}
+                alt="icon TypeScript"
+                className="p-3"
+              ></img>
             </div>
             <div>
-              <img src={CSharpImg} className="p-3"></img>
+              <img src={CSharpImg} alt="icon C#" className="p-3"></img>
             </div>
             <div>
-              <img src={ElixirImg} className="p-3"></img>
+              <img src={ElixirImg} alt="icon Elixir" className="p-3"></img>
             </div>
             <div>
-              <img src={RustImg} className="p-3"></img>
+              <img src={RustImg} alt="icon Rust" className="p-3"></img>
             </div>
           </div>
 
@@ -48,16 +52,20 @@ const Skill = () => {
           </h3>
           <div className="container mx-auto grid grid-cols-6">
             <div>
-              <img src={TerraformImg} className="p-3"></img>
+              <img
+                src={TerraformImg}
+                alt="icon Terraform"
+                className="p-3"
+              ></img>
             </div>
             <div>
-              <img src={CircleCIImg} className="p-3"></img>
+              <img src={CircleCIImg} alt="icon CircleCI" className="p-3"></img>
             </div>
             <div>
-              <img src={ReactImg} className="p-3"></img>
+              <img src={ReactImg} alt="icon React" className="p-3"></img>
             </div>
             <div>
-              <img src={DotnetImg} className="p-3"></img>
+              <img src={DotnetImg} alt="icon .NET" className="p-3"></img>
             </div>
           </div>
         </div>
