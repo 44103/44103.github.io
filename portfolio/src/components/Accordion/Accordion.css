@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.accordion {
+  @apply flex w-4/5 justify-between p-2 mt-2 rounded;
+}

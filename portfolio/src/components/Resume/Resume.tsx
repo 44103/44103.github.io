@@ -1,5 +1,6 @@
-import Qualification from "./qualification.json";
-import Event from "./event.json";
+import Qualification from "./qualifications.json";
+import Accordion from "../Accordion/Accordion";
+import events from "./events";
 
 const Resume = () => {
   return (
@@ -33,24 +34,7 @@ const Resume = () => {
 
         <div className="works-info">
           <p className="py-5">ハッカソン・イベント</p>
-          <table className="table-auto">
-            <thead>
-              <tr>
-                <th className="px-4 py-2">Title</th>
-                <th className="px-4 py-2">Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              {Event.map((value, index) => {
-                return (
-                  <tr className={index % 2 ? "bg-secondary" : "bg-primary"}>
-                    <td className="border px-4 py-2">{value.title}</td>
-                    <td className="border px-4 py-2">{value.date}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+          <Accordion events={events} />
         </div>
       </div>
     </section>

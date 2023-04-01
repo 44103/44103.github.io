@@ -5,7 +5,7 @@ const Menu = ({
   handleMenu?: React.MouseEventHandler<HTMLLIElement>;
   mode: string;
 }) => {
-  const menuItems = ["About", "Projects", "Skill", "Bookshelf", "Resume"];
+  const menuItems = ["About", "Skill", "Bookshelf", "Resume"];
 
   return (
     <>
