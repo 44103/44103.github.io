@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: './portfolio/build/'
+          path: "./portfolio/build/"
   # Single deploy job since we're just deploying
   deploy:
     environment:

@@ -1,13 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Sidebar from './components/Sidebar';
+import "./App.css";
+import About from "./components/About";
+import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Home from "./components/Home";
+import Skill from "./components/Skill";
+import Bookshelf from "./components/Bookshelf/Bookshelf";
+import Resume from "./components/Resume/Resume";
 
 function App() {
   return (
-    <div className="App">
-      <Sidebar />
-    </div>
+    <>
+      <Header />
+      <Home />
+      <About />
+      <Skill />
+      <Bookshelf />
+      <Resume />
+      <Footer />
+    </>
   );
 }
 
