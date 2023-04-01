@@ -3,7 +3,7 @@ import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
 const events = [
   {
     title: "JPHACKS 2018",
-    date: "2018年10月27・28日 11月24・25日",
+    date: "2018年10月27・28日 11月18日",
     content: (
       <>
         HACK DAY @福岡 <br />
