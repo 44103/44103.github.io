@@ -1,3 +1,4 @@
+import Table from "../Table";
 import Books from "./books.json";
 
 const Bookshelf = () => {
@@ -10,24 +11,7 @@ const Bookshelf = () => {
           </h2>
 
           <p className="py-5">読書履歴</p>
-          <table className="table-auto">
-            <thead>
-              <tr>
-                <th className="px-4 py-2">Title</th>
-                <th className="px-4 py-2">Date</th>
-              </tr>
-            </thead>
-            <tbody>
-              {Books.map((value, index) => {
-                return (
-                  <tr className={index % 2 ? "bg-secondary" : "bg-primary"}>
-                    <td className="border px-4 py-2">{value.title}</td>
-                    <td className="border px-4 py-2">{value.date}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+          <Table records={Books} />
         </div>
       </div>
     </section>

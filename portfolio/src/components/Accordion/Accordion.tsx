@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Accordion.css";
 import AccordionLayout from "./AccordionLayout";
-import EventIcon from "@mui/icons-material/Event";
+import { MdOutlineEvent } from "react-icons/md";
 
 const Accordion = ({
   events,
@@ -20,7 +20,9 @@ const Accordion = ({
             activeIndex={activeIndex}
             setActiveIndex={setActiveIndex}
           >
-            <EventIcon /> {value.date} <br />
+            <p className="flex items-center">
+              <MdOutlineEvent className="mr-1 text-xl" /> {value.date} <br />
+            </p>
             {value.content}
           </AccordionLayout>
         );
