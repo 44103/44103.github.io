@@ -11,11 +11,17 @@ const Resume = () => {
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[140px] pb-2 border-[#FF9036]">
             Resume
           </h2>
+          <h3 className="text-2xl font-bold mb-5 border-b-[3px] w-[160px] pb-2 border-[#FF9036]">
+            Qualifications
+          </h3>
           <Table records={Qualification} />
+          </p>
         </div>
 
-        <div className="works-info">
-          <p className="py-5">ハッカソン・イベント</p>
+        <div className="works-info w-[90%] ml-auto">
+          <h3 className="text-2xl font-bold mb-5 border-b-[3px] w-[80px] pb-2 border-[#FF9036]">
+            Events
+          </h3>
           <Accordion events={events} />
         </div>
       </div>
