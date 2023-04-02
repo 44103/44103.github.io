@@ -1,4 +1,4 @@
-import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import { BsTrophyFill } from "react-icons/bs";
 
 const events = [
   {
@@ -14,11 +14,11 @@ const events = [
           AWARD DAY @東京
         </a>{" "}
         <br />
-        <p className="pl-5">
-          <EmojiEventsIcon /> イノベーター認定
+        <p className="pl-5 flex items-center">
+          <BsTrophyFill className="mr-1" /> イノベーター認定
         </p>
-        <p className="pl-5">
-          <EmojiEventsIcon /> 企業賞：AJS賞
+        <p className="pl-5 flex items-center">
+          <BsTrophyFill className="mr-1" /> 企業賞：AJS賞
         </p>
       </>
     ),
@@ -28,8 +28,8 @@ const events = [
     date: "2018年11月24・25日",
     content: (
       <>
-        <p className="pl-5">
-          <EmojiEventsIcon /> 優勝
+        <p className="pl-5 flex items-center">
+          <BsTrophyFill className="mr-1" /> 優勝
         </p>
       </>
     ),

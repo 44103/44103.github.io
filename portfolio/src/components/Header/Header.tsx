@@ -1,6 +1,6 @@
 import { useState } from "react";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
+import { FiMenu } from "react-icons/fi";
+import { MdClose } from "react-icons/md";
 import Menu from "./Menu";
 
 const Header = () => {
@@ -31,7 +31,7 @@ const Header = () => {
 
       {/* Toggle Button */}
       <button onClick={handleToggle} className="block md:hidden px-1">
-        {toggle ? <CloseIcon /> : <MenuIcon />}
+        {toggle ? <MdClose /> : <FiMenu />}
       </button>
     </header>
   );

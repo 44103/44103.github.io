@@ -1,5 +1,5 @@
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { MdOutlineKeyboardArrowUp } from "react-icons/md";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 import { ReactNode, SetStateAction } from "react";
 
 const AccordionLayout = ({
@@ -33,9 +33,9 @@ const AccordionLayout = ({
         </div>
         <div className="flex items-center justify-center">
           {activeIndex === index ? (
-            <KeyboardArrowUpIcon className="w-8 h-8" />
+            <MdOutlineKeyboardArrowUp className="w-8 h-8" />
           ) : (
-            <KeyboardArrowDownIcon className="w-8 h-8" />
+            <MdOutlineKeyboardArrowDown className="w-8 h-8" />
           )}
         </div>
       </div>
