@@ -1,6 +1,7 @@
 import Qualification from "./qualifications.json";
 import Accordion from "../Accordion/Accordion";
 import events from "./events";
+import { FaAward } from "react-icons/fa";
 import Table from "../Table";
 
 const Resume = () => {
@@ -15,6 +16,14 @@ const Resume = () => {
             Qualifications
           </h3>
           <Table records={Qualification} />
+          <p className="flex items-center pl-5 pt-1">
+            <FaAward className="mr-1 text-xl" />
+            <a
+              href="https://www.openbadge-global.com/ns/portal/openbadge/public/assertions/user/Y2NzWjBiSkkweHBuZXZad0hlQW96dz09"
+              className="text-accent underline"
+            >
+              Open Badges
+            </a>
           </p>
         </div>
 
